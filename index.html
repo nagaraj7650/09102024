@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangMan</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <div id="game">
+        <div id="heading">
+            <p>HangMan :)</p>
+        </div>
+        <div id="buttons">
+            <p id="score">Your streak is <div id="streak">0</div></p>
+            <button id="resetGame">Reset Streak</button>
+        </div>
+        <div id="actualGame">
+            <!-- <div class="hiddenWord">W</div> -->
+        </div>
+        <div id="answer">
+            <p>The word is: <div id="theWord"></div></p>
+        </div>
+        <div id="LivesLeft">
+            <p>You have lives remaining: <div id="lives">7</div></p>
+        </div>
+        <div id="keyboard"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
